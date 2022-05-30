@@ -1,0 +1,227 @@
+
+
+
+
+
+    .nav_bar{
+
+        background-color: #30306e;
+        display: flex;
+        justify-content: revert;
+        margin: 0px;
+    line-height: 2.5;
+     position: fixed;
+     width: 100%;
+     height: 45px;
+    }
+    
+    
+    .nav_list{
+        display: inline-block;
+        color: white;
+        margin: 0px 10px 0px 10px;
+    
+    }
+    
+   
+    
+    .breadcrumb{
+        background-color: skyblue;
+        border-radius: 5px;
+        padding: 12px;
+    
+    }
+    
+    .bread_text{
+    
+        color: white;
+        cursor: pointer;
+        margin-top: 2%;
+    }
+    
+  
+    
+ /*  padding: 6% 0px 0px 0px;
+    background-color: #30306e;
+    width: 20%;
+    height: 0px;
+    position: fixed;
+
+    box-shadow: 0px 1px 20px 0px;
+    top: 0px;
+    left: 0px;
+    overflow-y: hidden;
+transition: all 0.5s ease-in-out;*/
+    .nav_side{
+    
+        list-style-type: none;
+        color: white;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .nav_side_list{
+        margin: 25px 0px 0px 0px;
+    
+    }
+    
+    .close_icon{
+    
+        float: right;
+        position: relative;
+        bottom: 29px;
+        font-size: 35px;
+        margin: 0px 21px 0px 0px; 
+        cursor: pointer;
+    }
+    
+    .border-box{
+        padding: 12px;
+        box-shadow: 0px 0px 6px 0px grey;
+        border-radius: 5px;
+    
+    }
+    
+    .icon_style{
+    
+        background-color: #8686ff;
+        font-size: 30px;
+        padding: 10px;
+        color: white;
+        border-radius: 50%;
+        margin: 5px 5px 0px 5px;
+    }
+    
+    .cards_text{
+    
+    margin-bottom: 0px;
+    }
+    
+    .cards_text2{
+        margin-bottom: 7px;
+        color: black;
+        font-weight: 500;
+    }
+
+
+@media only screen and (max-width:600px){
+
+    .hamberger{
+        margin-left: 1%;
+        color:white;
+        font-size: 25px;
+        position: relative;
+        bottom: 20%;
+        cursor: pointer;
+        left: 90%;
+        }
+
+    .side_nav{
+        background-color: #30306e;
+        width: 65%;
+        height: 0%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    overflow-x:hidden;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 1px 20px 0px;
+    }
+
+    .nav_list{
+
+        display: none;
+
+    }
+
+    .foot{
+        background-color: #b6b6b6;
+            height: 100px;
+            width: 100%;
+        }
+}
+
+@media only screen and (min-width:768px){
+
+    .hamberger{
+        margin-left: 1%;
+        color:white;
+        font-size: 25px;
+        position: relative;
+        bottom: 20%;
+        cursor: pointer;
+        }
+    .side_nav{
+        background-color: gray;
+        width: 35%;
+        height: 0%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    overflow-x:hidden;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 1px 20px 0px;
+    }
+    .foot{
+        background-color: #b6b6b6;
+            height: 100px;
+            width: 100%;
+        }
+}
+
+@media only screen and (min-width:981px){
+    .hamberger{
+        margin-left: 1%;
+        color:white;
+        font-size: 25px;
+        position: relative;
+        bottom: 20%;
+        cursor: pointer;
+        }
+    .side_nav{
+        background-color: gray;
+        width: 25%;
+        height: 0%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    overflow-x:hidden;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 1px 20px 0px;
+    }
+    
+    .foot{
+        background-color: #b6b6b6;
+            height: 100px;
+            width: 100%;
+        }
+}
+
+@media only screen and (min-width:1200px){
+    .hamberger{
+        margin-left: 1%;
+        color:white;
+        font-size: 25px;
+        position: relative;
+        bottom: 20%;
+        cursor: pointer;
+        }
+    .side_nav{
+        background-color: gray;
+        width: 20%;
+        height: 0%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    overflow-x:hidden;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 1px 20px 0px;
+    }
+    .foot{
+        background-color: #b6b6b6;
+            height: 100px;
+            width: 100%;    
+            margin-top:11%;
+         
+        }
+}
+
